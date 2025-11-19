@@ -4,7 +4,7 @@ This project implements a deep learning model for classifying brain tumors (Glio
 
 ## 🚀 Live Application
 
-[Link to Hugging Face Space (To be added after deployment)]
+[**Try the Brain Tumor Classifier Demo Here!**](https://huggingface.co/spaces/anand9450/MRI-Brain-Tumor-Classifier)
 
 ## 📋 Table of Contents
 
