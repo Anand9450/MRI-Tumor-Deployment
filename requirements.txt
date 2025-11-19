@@ -1,0 +1,6 @@
+# In the root of your project directory
+echo "tensorflow" >> requirements.txt
+echo "numpy" >> requirements.txt
+echo "matplotlib" >> requirements.txt
+echo "pillow" >> requirements.txt
+echo "gradio" >> requirements.txt
