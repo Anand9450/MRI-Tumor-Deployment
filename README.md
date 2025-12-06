@@ -10,15 +10,18 @@ pinned: false
 license: mit
 ---
 
-# 🧠 NeuroScan AI: Tumor Detection
+# 🧠 NeuroScan AI (Brain Tumor Classification)
 
-Advanced MRI analysis for early detection of Glioma, Meningioma, and Pituitary tumors.
+Advanced MRI analysis for early detection of Glioma, Meningioma, and Pituitary tumors. This project implements a deep learning model deployed as an interactive web application.
+
+## 🚀 Live Application
+[**Try the Demo Here**](https://huggingface.co/spaces/anand9450/MRI-Brain-Tumor-Classifier)
 
 ## Overview
 
-This project uses a Deep Learning model (TensorFlow/Keras) to classify brain MRI scans into four categories:
-*   **Glioma**
-*   **Meningioma**
+The model uses a Convolutional Neural Network (CNN) built with **TensorFlow/Keras** to classify brain MRI scans into four categories:
+*   **Glioma Tumor**
+*   **Meningioma Tumor**
 *   **Pituitary Tumor**
 *   **No Tumor**
 
@@ -27,6 +30,18 @@ This project uses a Deep Learning model (TensorFlow/Keras) to classify brain MRI
 1.  Upload a clear MRI scan (T1-weighted contrast-enhanced images recommended).
 2.  Click **Analyze Scan**.
 3.  View the predicted diagnosis and confidence scores.
+
+## How to Run Locally
+
+1.  Clone this repository: `git clone https://github.com/Anand9450/MRI-Tumor-Deployment.git`
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Run the application:
+    ```bash
+    python app.py
+    ```
 
 ## Disclaimer
 
