@@ -1,5 +1,5 @@
-tensorflow
+tensorflow==2.15.0
 numpy
 matplotlib
 pillow
-gradio
+gradio>=4.0.0
